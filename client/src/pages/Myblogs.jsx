@@ -8,7 +8,7 @@ const Myblogs = () => {
     useEffect(()=>{ 
         const getmethod=async()=>{ 
             const name=localStorage.getItem('name')
-            const respone=await fetch(`http://localhost:8000/blog/${name}`);
+            const respone=await fetch(`https://blogging-app-1z4m.onrender.com/blog/${name}`);
         const data=await respone.json();
         setblogs(data)
         console.log(data)

@@ -22,12 +22,7 @@ const Signin = () => {
     }
   return (
     <>
-        {/* <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-            <h1>Blogging App</h1> 
-            <Button variant="contained" style={{height:'36px',backgroundColor:'#398388'}}  onClick={()=>navigate('/blogs')}>Sign In</Button>
-            
-
-        </div> */}
+       
         <Navbar props={false}/>
         <div style={{display:'flex',justifyContent:'space-around',marginTop:'58px'}}>
             <div style={{height:'390px',width:'500px',borderRadius:'10px',backgroundColor:'yellow',display:'flex',flexDirection:'column',justifyContent:'center',color:'red'}}>

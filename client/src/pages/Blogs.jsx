@@ -10,7 +10,7 @@ const Blogs = () => {
     const navigate=useNavigate();
     useEffect(()=>{ 
         const getmethod=async()=>{
-            const respone=await fetch('http://localhost:8000/blog/get');
+            const respone=await fetch('https://blogging-app-1z4m.onrender.com/blog/get');
         const data=await respone.json();
         setblogs(data)
         console.log(data)

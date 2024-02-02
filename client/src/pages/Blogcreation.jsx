@@ -17,7 +17,7 @@ const Blogcreation = () => {
         title:title,
         description:description
       }
-      const response=await fetch('http://localhost:8000/blog/post',{
+      const response=await fetch('https://blogging-app-1z4m.onrender.com/blog/post',{
         method: "POST",
         headers: {
           "content-Type": "application/json",
@@ -25,7 +25,7 @@ const Blogcreation = () => {
         body: JSON.stringify(obj),
       });
       const data=await response.json();
-      
+
     }
 
   return (
